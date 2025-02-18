@@ -1,0 +1,19 @@
+[project]
+name = "airbnb-clone-backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "유선혁",email = "tjsgur2399@icloud.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.1.6,<6.0.0)",
+    "beautifulsoup4 (>=4.13.3,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
